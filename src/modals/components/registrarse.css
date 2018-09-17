@@ -1,0 +1,33 @@
+
+.RegistrarseFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RegistrarseFormulario input{
+    margin: 10px;
+    background: none;
+    border: none;
+    background: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 2px black;
+    color: #061f3e;
+    font-family: "Montserrat";
+}
+
+.RegistrarseFormulario .enviar{
+    background: none;
+    border: none;
+    background: linear-gradient(to left, #2db6d6, #57cc95);
+    padding: 10px 5px;
+    box-shadow: 2px 2px 7px 2px black;
+    color: #061f3e;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border-radius: 5px;
+    
+
+}
+

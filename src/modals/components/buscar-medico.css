@@ -1,0 +1,49 @@
+
+.Doctores{
+    
+    overflow: auto;
+    height: max-content;
+}
+.MenuDeplegable{
+    cursor: pointer;
+    /* padding: 15px; */
+    border: 2px solid aqua;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    padding: 15px;
+}
+.MenuDeplegable:hover{
+    border: 0;
+}
+.MenuDeplegable:hover div{
+    display: block;
+}
+.md1{
+    position: absolute;
+    top: 40%;
+    left: 7px;
+}
+.md2{
+    position: absolute;
+    top: 40%;
+    right: 5px;
+}
+.MenuDeplegable div{
+    display: none;
+}
+.MenuDeplegable li{
+    list-style: none;
+    margin: 20px 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid aqua;
+    transition: .2s;
+    border-left: 0;
+    border-right: 0;
+    padding: 15px 5px;
+}
+.MenuDeplegable li:hover{
+    background: aqua;
+    color: black;
+}

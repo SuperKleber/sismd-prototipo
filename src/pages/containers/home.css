@@ -1,0 +1,102 @@
+/* branding verde #57cc95 /azul #2db6d6 /fondo #061f3e */
+body{
+    margin: 0;
+    background: #061f3e ;
+    font-family: "Montserrat";
+    color: #2db6d6;
+    overflow: hidden;
+    /* overflow-x:  hidden; */
+}
+.Home{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.Home header img{
+    width: 250px;
+    /* margin: 35px; */
+}
+.Home header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.menu{
+    height: 100vh;
+    width: 100vw;
+    background: #2db6d6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+.menu li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 20px 0 ;
+}
+.menu li a {
+    color:#061f3e;
+    font-size: 45px;
+    cursor: pointer;
+    padding: 7px 20px;
+    transition: .4s;
+}
+.menu li a:hover{
+    color: #2db6d6;
+    background: #061f3e;
+}
+.burgerButton{
+    position: fixed;
+    top: 25px;
+    left: 40px;
+    font-size: 70px;
+    cursor: pointer;
+    transition: .2s;
+    z-index: 3;
+    /* transition: .5s; */
+    background: none;
+    border: none;
+    color: #2db6d6;
+    outline: none;
+}
+.burgerButton:active{
+    transform: scale(0.9);
+}
+.sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right:  40px;
+}
+.sesion button{
+    background: none;
+    border: none;
+    background: linear-gradient(to left, #2db6d6,  #57cc95);
+    box-shadow: 2px 2px 7px 2px black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #061f3e;
+    cursor: pointer;
+    outline: none;
+    transition: .2s;
+}
+.sesion button:active{
+    transform: scale(0.9);
+}

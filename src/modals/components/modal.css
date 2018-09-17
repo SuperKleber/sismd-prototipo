@@ -1,0 +1,29 @@
+.Modal{
+    position: fixed;
+    background: #061f3edf;
+    
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.Modal .cerrarModal{
+    background: none;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 40px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,123 @@
+{
+    "servicios":[ 
+        {
+            "h1":"Consulta Médica a Domicilio",
+            "button":"Ver Más",
+            "h4":"24 horas",
+            "key":"1",
+            "NumeroModal":"1"
+        },
+        {
+            "h1":"Afiliate con nosotros y ten un seguro todo el año",
+            "button":"Ver Más",
+            "h4":"Assismed",
+            "key":"2",
+            "NumeroModal":"2"
+        },
+        {
+            "h1":"Encuentra a tu médico",
+            "button":"Ver Más",
+            "h4":"Guía Médica",
+            "key":"3",
+            "NumeroModal":"3"
+        }
+        
+
+    ],
+    "publicidad":[
+        {
+            "href": "https://starsgenerator.com",
+            "imgSrc":"stars.jpg",
+            "imgAlt":"StarsGenerator.com",
+            "h1": "Stars Generator el hogar de las estrellas",
+            "key":"1"
+        },
+        {
+            "href": "https://starsgenerator.com",
+            "imgSrc":"stars.jpg",
+            "imgAlt":"StarsGenerator.com",
+            "h1": "Stars Generator el hogar de las estrellas",
+            "key":"2"
+        },
+        {
+            "href": "https://starsgenerator.com",
+            "imgSrc":"stars.jpg",
+            "imgAlt":"StarsGenerator.com",
+            "h1": "Stars Generator el hogar de las estrellas",
+            "key":"3"
+        }
+    ],
+    "noticias":[
+        
+        {
+            "src":"migraña.jpg",
+            "h1": "¿Conoces qué es la migraña?",
+            "h3": "Las migrañas suelen estar precedidas por síntomas de advertencia. Los desencadenantes son los cambios hormonales, ciertos alimentos y bebidas, el estrés y el ejercicio.",
+            "alt":"noticia",
+            "key":"1"
+        },
+        {
+            "src":"gastritis.jpg",
+            "h1": "Sobre la Gastritis",
+            "h3": "Conjunto de trastornos caracterizados por la inflamación del revestimiento del estómago.",
+            "alt":"noticia",
+            "key":"2"
+        },
+        {
+            "src":"ictus.jpg",
+            "h1": "¿Qué es el Ictus?",
+            "h3": "Lesión en el cerebro ocasionada por la interrupción de la irrigación sanguínea.",
+            "alt":"noticia",
+            "key":"3"
+        },
+        {
+            "src":"diabetes.jpg",
+            "h1": "¿Cómo prevenir la diabetes?",
+            "h3": "Afección crónica que afecta la manera en la que el cuerpo procesa el azúcar en sangre (glucosa).",
+            "alt":"noticia",
+            "key":"4"
+        }
+    ],
+    "doctores":[
+        {
+            "nombreDoctor":"Luis Fernandez Perez",
+            "imgSrc":"doc1.jpg",
+            "descripcionDoctor":"Doctor en Otorrinolargología de la universidad de Ramschell",
+            "curriculum":"cv.pdf",
+            "celularDoctor":"59170657034",
+            "mensajeDoctor":"Hola Doctor Perez necesito una consulta"
+        },
+        {
+            "nombreDoctor":"René Bustamante",
+            "imgSrc":"doc2.jpg",
+            "descripcionDoctor":"Doctor en el instituto de Oncología de la UNAM",
+            "curriculum":"cv.pdf",
+            "celularDoctor":"59170657034",
+            "mensajeDoctor":"Hola Doctor Perez necesito una consulta"
+        },
+        {
+            "nombreDoctor":"Maria Gallardo Sanchez",
+            "imgSrc":"doc3.jpg",
+            "descripcionDoctor":"Pediatra de la UBA Universidad de Buenos Aires",
+            "curriculum":"cv.pdf",
+            "celularDoctor":"59170657034",
+            "mensajeDoctor":"Hola Doctor Perez necesito una consulta"
+        },
+        {
+            "nombreDoctor":"Carlos Esteban Arce",
+            "imgSrc":"doc4.jpg",
+            "descripcionDoctor":"Doctor en Otorrinolargología de la UMSA",
+            "curriculum":"cv.pdf",
+            "celularDoctor":"59170657034",
+            "mensajeDoctor":"Hola Doctor Perez necesito una consulta"
+        },
+        {
+            "nombreDoctor":"Roberto Calim Semto",
+            "imgSrc":"doc5.jpg",
+            "descripcionDoctor":"Doctor en rinoplastía de la UNIVALLE",
+            "curriculum":"cv.pdf",
+            "celularDoctor":"59170657034",
+            "mensajeDoctor":"Hola Doctor Perez necesito una consulta"
+        }
+    ]
+}

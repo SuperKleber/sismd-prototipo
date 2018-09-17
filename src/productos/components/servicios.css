@@ -1,0 +1,59 @@
+/* branding verde #57cc95 /azul #2db6d6 /fondo #061f3e */
+
+.servicio{
+    /* background: red; */
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-auto-rows: 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* align-items: center; */
+}
+.servicio section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2db6d6;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+}
+.servicio section:hover{
+    background: #2db6d6;
+    color: #061f3e;
+}
+.servicio section:hover button{
+    background: #2db6d6;
+}
+.servicio section h1{
+    
+    text-align: center;
+    margin: 15px;
+}
+.servicio section button{
+    cursor: pointer;
+    border: none;
+    color: #061f3e;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: "Montserrat";
+    background: none;
+    width: 100%;
+    background: linear-gradient(to left, #57cc95, #2db6d6);
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    bottom: 0;
+}

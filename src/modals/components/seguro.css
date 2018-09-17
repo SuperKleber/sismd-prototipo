@@ -1,0 +1,16 @@
+.Seguro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Seguro a{
+    text-decoration: none;
+    background: linear-gradient(to left , #2db6d6, #57cc95 );
+    color: #061f3e;
+    padding: 15px 15px;
+    font-weight: bolder;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 2px solid black;
+}

@@ -1,0 +1,29 @@
+.Doctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid aqua;
+    border-left: 0;
+    border-right: 0;
+
+    height: 70vh;
+    margin: 25px 0;
+}
+.Doctor img{
+    width: 100px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+.Doctor a{
+    text-decoration: none;
+    color: #061f3e;
+    background: linear-gradient(to left, #2db6d6, #57cc95);
+    box-shadow: 2px 2px 7px 2px black;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    padding: 15px 10px;
+    margin: 15px; 
+}
